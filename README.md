@@ -1,26 +1,29 @@
-# React JS Best Practices
+# React ui guide.
 
 making react js easier a bit with best practice.
 
-- [requirement](#requirement)
-  - [installation](#installation)
-  - [jsx](#jsx)
-  - [elements rendering](#elements-rendering)
+
+- [installation](#installation)
+
+<!-- 
+
+- [jsx](#jsx)
+- [elements rendering](#elements-rendering)
 - [styling](#styling)
-  - [styled components](#styled-components)
+- [styled components](#styled-components)
 - [import and exports](#import-and-exports)
-  - [components](#components)
-  - [files and links ](#files-and-links)
-  - [through array maping ](#through-maping-array)
+- [components](#components)
+- [files and links ](#files-and-links)
+- [through array maping ](#through-maping-array)
 - [destructuring](#destructuring)
-  - [destructuring props](#destructuring-props)
+- [destructuring props](#destructuring-props)
 - [pro tips](#pro-tips)
 
-## requirement
+-->
+
+## installation
 
 although react js is Javascript frontend libarary. there are some pre requirement for learning libarary like basics of `html`, `css`, `dom`,`es6`, `node` and `npm`.you don't need to master them all.
-
-### installation
 
 react js takes some time for installation so you can use [vite](https://vitejs.dev/guide/) instead of installing react. it will save your time and provide more features too.
 
@@ -28,10 +31,9 @@ react js takes some time for installation so you can use [vite](https://vitejs.d
 npm create vite@latest
 ```
 
-### jsx
 
-jsx is nothing just the combination of `javascript` and `xml`. react render the logic in jsx to show/load the elements.
 
+<!-- 
 ```js
 const name = "Josh Perez";
 const element = <h1>Hello, {name}</h1>;
@@ -156,7 +158,13 @@ return (
     <App />
   </>
 );
-```
+``` -->
+
+
+
+
+
+<!-- 
 
 ## import and exports
 
@@ -318,11 +326,11 @@ price="$40"
 - keep your key prop unique across the whole app.
 - don't use inline-styles.
 - use functional components (like arrow-functions).
-- maintain a proper import structure (third-party imports first --> internal imports below).
+- maintain a proper import structure (third-party imports first  internal imports below).
 - Maintain a structured import order.
 - format your code before committing.
 
 ### author
 
 errors are expected if you find one report it to the [author](https://twitter.com/engsiraj_).
-
+ -->
