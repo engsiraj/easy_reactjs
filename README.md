@@ -5,22 +5,8 @@ making react js easier a bit with best practice.
 
 - [installation](#installation)
 - [folder structure](#folder-structure)
-
-<!-- 
-
-- [folder structure](#folder-structure)
-- [elements rendering](#elements-rendering)
-- [styling](#styling)
 - [styled components](#styled-components)
-- [import and exports](#import-and-exports)
-- [components](#components)
-- [files and links ](#files-and-links)
-- [through array maping ](#through-maping-array)
-- [destructuring](#destructuring)
-- [destructuring props](#destructuring-props)
-- [pro tips](#pro-tips)
 
--->
 
 ## installation
 
@@ -94,26 +80,7 @@ src/
 
 ```
 
-<!-- 
-```js
-const name = "Josh Perez";
-const element = <h1>Hello, {name}</h1>;
-```
-
-### elements rendering
-
-we can render element/function or piece of javascript code any where in jsx using `{}`.
-
-```js
-const name = "Josh Perez";
-const element = <h1>Hello, {name}</h1>;
-```
-
-## styling
-
-react built to design interfaces and provide many ways to style its components.
-
-### styled components
+## styled components
 
 1 - install styled-components using npm.
 
@@ -219,7 +186,7 @@ return (
     <App />
   </>
 );
-``` -->
+```
 
 
 
