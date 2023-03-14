@@ -4,10 +4,11 @@ making react js easier a bit with best practice.
 
 
 - [installation](#installation)
+- [folder structure](#folder-structure)
 
 <!-- 
 
-- [jsx](#jsx)
+- [folder structure](#folder-structure)
 - [elements rendering](#elements-rendering)
 - [styling](#styling)
 - [styled components](#styled-components)
@@ -30,8 +31,68 @@ react js takes some time for installation so you can use [vite](https://vitejs.d
 ```
 npm create vite@latest
 ```
+## folder structure
 
+your project folder structure based on few things like: size,complexity and technologies used in project. 
+here is how you can structure your files when you have,
 
+- small project
+
+```
+src/
+├── asset/
+│   └── projectimage.png
+│
+├── pages/
+│    ├─ landing/
+│    │   ├── LandingPage.jsx
+│    │   └── Landing.css
+│    └─ contact/
+│        ├── Contact.jsx
+│        └── Contact.css
+│
+└── components/
+    ├─ button/
+    │   ├── Button.jsx
+    │   └── Button.css
+    └─ card/
+        ├── Card.jsx
+        └── Card.css
+```
+- large project
+
+```
+src/
+├── asset/
+│   └── projectimage.png
+│
+├── pages/
+│    ├─ landing/
+│    │   ├── LandingPage.jsx
+│    │   └── Landing.css
+│    └─ contact/
+│        ├── Contact.jsx
+│        └── Contact.css
+│
+├── components/
+│    ├─ button/
+│    │   ├── Button.jsx
+│    │   └── Button.css
+│    └─ card/
+│        ├── Card.jsx
+│        └── Card.css
+│   
+├── routs/
+│   ├── Component.jsx
+│   └── Pages.jsx
+│  
+└── services/
+    ├── Actions/
+    ├── Reducers/
+    ├── Utils/
+    └── Consts/
+
+```
 
 <!-- 
 ```js
