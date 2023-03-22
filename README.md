@@ -5,6 +5,7 @@ making react js easier a bit with best practice.
 
 - [installation](#installation)
 - [folder structure](#folder-structure)
+- [cascading style sheet](#cascading-style-sheet)
 - [styled components](#styled-components)
 
 
@@ -79,6 +80,7 @@ src/
     └── Consts/
 
 ```
+## cascading style sheet
 
 ## styled components
 
